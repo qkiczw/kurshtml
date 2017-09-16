@@ -1,3 +1,30 @@
-article:nth-of-type(odd){
+article.content {
     background: silver;
+}
+
+div.content{
+    background: blue;
+}
+
+
+
+
+
+
+/* style do tabeli */
+
+table{
+    width:50%;
+
+}
+
+thead{
+    background: red;
+    color: white;
+    font-weight:bold;
+    font-size:1,5em;
+}
+
+tbody tr:nth-child(2n+2){
+    background-color:silver;
 }
