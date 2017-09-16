@@ -9,7 +9,66 @@ div.content{
 
 
 
+/* style do pliku fontsize */
 
+h2{
+    font-size:4em;
+    color: red;
+    font-family: Arial, helvetica, sans-serif;
+}
+
+p{
+    font-size:1,5em;
+    font-family: Arial;
+    color: grey;
+    letter-spacing: 2px;
+    word-spacing:10px;
+    line-height:20px;
+}
+
+
+
+
+a{
+    font-weight:bold;
+    text-decoration: none;
+
+}
+
+a:hover{
+    background: yellow;
+    color: red;
+}
+
+
+a.line-trough{
+    text-decoration: line-through;
+}
+
+.font-bold{
+    font-weight:bold;
+}
+.font-weight-one{
+    font-weight:600;
+}
+.font-weight-two{
+    font-weight:700;
+}
+p.font-weight-three{
+    font-weight:800;
+}
+
+p.transform{
+    text-transform: uppercase;
+}
+
+.capitalize > p{
+    text-transform: capitalize;
+}
+
+.capitalize > p:nth-child(2n+1){
+    color: green;
+}
 
 /* style do tabeli */
 
