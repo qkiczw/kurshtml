@@ -6,7 +6,14 @@ div.content{
     background: blue;
 }
 
+/* style do pliku boxmodel */
 
+.box{
+    margin: 30px;
+    padding: 30px;
+    border: 1px solid green;
+    
+}
 
 
 /* style do pliku fontsize */
